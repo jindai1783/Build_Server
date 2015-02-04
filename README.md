@@ -6,7 +6,8 @@
 2. npm install --save-dev grunt
 3. npm install -g grunt
 
-4.
+
+And then, the magic:
 npm install --save-dev mocha
 npm install --save-dev chai
 npm install --save-dev phantomjs
@@ -16,7 +17,7 @@ npm install --save-dev casper-chai
 npm install -g phantomjs
 npm install --save-dev grunt-mocha-casperjs
 
-5. Gruntfile.js
+4. Gruntfile.js
 
 ## Comparing Node to Sinatra
 
