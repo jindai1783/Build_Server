@@ -1,13 +1,18 @@
-# Build_Server
+# Practice Node 2
+
+## Introduction
+
+This repository is a reference of building a Express server within Node. The server renders a single webpage with only "Hello World"
 
 ## Tutorial
 
-1. npm install -g grunt-cli
-2. npm install --save-dev grunt
-3. npm install -g grunt
-4. Gruntfile.js
+```
+npm install -g grunt-cli
+npm install --save-dev grunt
+npm install -g grunt
+touch Gruntfile.js
 
-And then, the magic
+// And then, the magic...
 npm install --save-dev mocha
 npm install --save-dev chai
 npm install --save-dev phantomjs
@@ -16,8 +21,9 @@ npm install --save-dev mocha-casperjs
 npm install --save-dev casper-chai
 npm install -g phantomjs
 npm install --save-dev grunt-mocha-casperjs
+```
 
-## Comparing Node to Sinatra
+If we compare Node + Express with Sinatra...
 
 ![alt text][compare]
 
